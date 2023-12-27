@@ -15,10 +15,10 @@ namespace PMS.Core.Models.DTO
     {
         
            
-            public int PatientMedicalRecordID { get; set; }
+         //   public int PatientMedicalRecordID { get; set; }
 
            
-            public int PatientProfileID { get; set; }
+        //    public int PatientProfileID { get; set; }
             [AllowNull]
             public Patient? PatientProfile { get; set; }
             [AllowNull]
@@ -264,6 +264,8 @@ namespace PMS.Core.Models.DTO
             public string? MedicalRecordUrl { get; set; }
             [AllowNull]
             public string? medicalRecordFileName { get; set; }
+            [AllowNull]
+            public string? xRayNo { get; set; }
             [AllowNull]
             public DateTime? CreatedDate { get; set; }
             
