@@ -386,6 +386,9 @@ namespace PMS.Core.Models.DTO
         public string? medicalRecordFileName { get; set; }
 
         [AllowNull]
+        public string? xRayNo { get; set; }
+
+        [AllowNull]
         public DateTime? CreatedDate { get; set; }
 
         [AllowNull]
